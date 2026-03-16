@@ -33,6 +33,23 @@ public class StatisticsHelper
     }
 
 
+    public static int CalculateMax(int[] values)
+    {
+        
+        int max = values[0];
+
+        foreach (int x in values)
+        {
+            if(value> max)
+                max = x;
+        }
+        
+        return max;
+        
+    }
+
+    
+
 
 
 
