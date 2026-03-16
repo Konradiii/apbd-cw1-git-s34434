@@ -1,6 +1,16 @@
 ﻿Console.WriteLine("Hello, World!");
 
-double result = StatisticsHelper.kwadrat(4);
-Console.WriteLine(result);
+Console.WriteLine("Podaj liczbę: ");
+string input = Console.ReadLine();
+double liczba = double.Parse(input);
+
+double wynik = StatisticsHelper.kwadrat(liczba);
+
+Console.WriteLine($"Wynik kwadratu podanej liczby : {wynik}");
+
+
+
+
+
 
 
