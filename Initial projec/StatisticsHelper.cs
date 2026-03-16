@@ -35,17 +35,15 @@ public class StatisticsHelper
 
     public static int CalculateMax(int[] values)
     {
-        
-        int max = values[0];
+        int currentMax = values[0];
 
         foreach (int x in values)
         {
-            if(x > max)
-                max = x;
+            if (x > currentMax)
+                currentMax = x;
         }
-        
-        return max;
-        
+
+        return currentMax;
     }
 
     
