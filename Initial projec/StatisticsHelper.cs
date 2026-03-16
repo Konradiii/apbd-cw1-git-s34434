@@ -40,7 +40,7 @@ public class StatisticsHelper
 
         foreach (int x in values)
         {
-            if(value> max)
+            if(x > max)
                 max = x;
         }
         
