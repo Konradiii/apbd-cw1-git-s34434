@@ -1,3 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿Console.WriteLine("Hello, World!");
 
-Console.WriteLine("Hello, World!");
+public class StatisticsHelper
+{
+
+    public static double kwadrat(double liczba)
+    {
+        return liczba * liczba;
+    }
+
+
+
+}
+
+
