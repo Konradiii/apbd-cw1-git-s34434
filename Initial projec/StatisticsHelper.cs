@@ -51,7 +51,16 @@ public class StatisticsHelper
 
     public static int CalculateMin(int[] values)
     {
-        return 0;
+        int min = values[0];
+
+        foreach (int x in values)
+        {
+            if(x < min)
+                min = x;
+        }
+        
+        return min;
+
     }
 
 
